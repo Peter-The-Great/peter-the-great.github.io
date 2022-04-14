@@ -90,3 +90,10 @@ function getAge(birth) {
 }
 var age = getAge('05/09/2003');
 document.getElementById("age").innerHTML = age;
+var typed = new Typed("#teaser", {
+    strings: ["I am a Software Developer", "I am a Web Developer", "I am a Student", "I am a Pro Gamer", "I am a PHP Dev", "I am a IT Expert"],
+    typeSpeed: 50,
+    backSpeed: 20,
+    loop: true,
+    showCursor: false
+});
