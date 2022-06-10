@@ -1,4 +1,4 @@
-    //scripts i found to be very usefull i made sure that everything came into existance    
+//scripts i found to be very usefull i made sure that everything came into existance    
     (function($) {
     "use strict"; //Start of use strict dont really have to but it would be kind of funny
     // Smooth scrolling using jQuery easing
@@ -72,6 +72,8 @@ var date = new Date();
 //Get Copyright
 document.getElementById("copy").innerHTML =  "Copyright © " + date.getFullYear() + " Pjotr Wisse";
 
+//fartscroll();
+
 function getAge(birth) {
    var today = new Date();
    var curr_date = today.getDate();
@@ -91,7 +93,7 @@ function getAge(birth) {
 var age = getAge('05/09/2003');
 document.getElementById("age").innerHTML = age;
 var typed = new Typed("#teaser", {
-    strings: ["I am a Software Developer", "I am a Web Developer", "I am a Student", "I am a Pro Gamer", "I am a PHP Dev", "I am a IT Expert"],
+    strings: ["I am a Software Developer", "I am a Web Developer", "I am a Student", "I am a Pro Gamer", "I am a PHP Dev", "I am a IT Expert", "I am a Funny Guy"],
     typeSpeed: 50,
     backSpeed: 20,
     loop: true,
