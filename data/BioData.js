@@ -4,7 +4,7 @@ const bioData = [
         name: 'Paniek',
         username: 'peter-the-great',
         url: 'https://paniek.vercel.app',
-        titleImg: true,
+        titleImg: false,
         avatar: '/avatar.png',
         nftAvatar: true,
         description: 'A really intresting guy who loves to code',
