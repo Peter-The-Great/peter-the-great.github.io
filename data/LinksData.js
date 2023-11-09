@@ -67,7 +67,7 @@ const webLinks = [
     },
     {
         title: 'Portfolio',
-        url: 'peter-the-great.github.io/portfolio/',
+        url: 'portfolio/',
         type: 'other',
         icon: '/avatar.png',
         on: true
